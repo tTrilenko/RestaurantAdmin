@@ -1,0 +1,137 @@
+[
+  {
+    categoryName: 'Meat',
+    thumbnailSrc: 'imgs/meat.jpg',
+    dishes      : [
+      {
+        name              : 'Chicken and Leek Pie',
+        price             : '10',
+        lastDateOfModified: '',
+        imgSrc            : '',
+        desc              : 'Tender chicken breast chunks in a sauce with leeks, onions & potatoes, topped with a flaky crust.'
+      },
+      {
+        name              : 'Steak and Kidney Pie',
+        price             : '20',
+        lastDateOfModified: '',
+        imgSrc            : '',
+        desc              : 'Tender chunks of steak & kidney braised in an onion gravy sauce made with Guinness Stout and red wine, topped with flaky crust.'
+      },
+      {
+        name              : 'Stilton Plate',
+        price             : '6.25',
+        lastDateOfModified: '',
+        imgSrc            : '',
+        desc              : 'Stilton cheese served with cucumbers & crackers.'
+      },
+      {
+        name              : 'Herb Chicken',
+        price             : '3.25',
+        lastDateOfModified: '',
+        imgSrc            : '',
+        desc              : 'A chicken breast marinated with herbs, served with white rice, rice pilaf or fries, and vegetables.'
+      }
+    ]
+  },
+  {
+    categoryName: 'Fish',
+    thumbnailSrc: 'imgs/fish.jpg',
+    dishes      : [
+      {
+        name              : 'Lamb Stew in a Yorkshire Pudding',
+        price             : '10.50',
+        lastDateOfModified: '',
+        imgSrc            : '',
+        desc              : 'Chunks of beef , potato, & vegetables in hearty stew made with Guiness stout in a giant Yorkshire Pudding.'
+      },
+      {
+        name              : 'Cottage Pie',
+        price             : '4.35',
+        lastDateOfModified: '',
+        imgSrc            : '',
+        desc              : 'Minced Beef and vegetables topped with our mashed potatoes & gravy.'
+      }
+    ]
+  },
+  {
+    categoryName: 'Salads',
+    thumbnailSrc: 'imgs/salad.jpeg',
+    dishes      : [
+      {
+        name              : 'Tuna Carpaccio',
+        price             : '5',
+        lastDateOfModified: '',
+        imgSrc            : '',
+        desc              : 'Olive oil mashed potatoes, crisp pasta cracker, garlic aioli, capers, parsley.'
+      },
+      {
+        name              : 'Boston Bibb Salad',
+        price             : '4.35',
+        lastDateOfModified: '',
+        imgSrc            : '',
+        desc              : 'White onions, toasted walnut dressing, maytag blue cheese “shower”'
+      },
+      {
+        name              : 'Watermelon Salad',
+        price             : '6.35',
+        lastDateOfModified: '',
+        imgSrc            : '',
+        desc              : 'Organic arugula, tomatoes, feta cheese, lemon vinaigrette.'
+      }
+    ]
+  },
+  {
+    categoryName: 'Desserts',
+    thumbnailSrc: 'imgs/Tiramisu.jpg',
+    dishes      : [
+      {
+        name              : 'Vongole',
+        price             : '6',
+        lastDateOfModified: '',
+        imgSrc            : '',
+        desc              : 'Manila clams, red pepper flakes, white wine & garlic, parsley.'
+      },
+      {
+        name              : 'Baked Apple Dumplin',
+        price             : '4.35',
+        lastDateOfModified: '',
+        imgSrc            : '',
+        desc              : 'Covered with Pecan Streusel and Premium Vanilla Bean Ice Cream n\' Apple Topping.'
+      },
+      {
+        name              : 'Fruit Cobbler with Ice Cream',
+        price             : '10',
+        lastDateOfModified: '',
+        imgSrc            : '',
+        desc              : 'Each day we prepare and bake a special fruit cobbler right in our own kitchens and serve it up to you nice and warm with our own Premium Vanilla Bean Ice Cream.'
+      }
+    ]
+  },
+  {
+    categoryName: 'Drinks',
+    thumbnailSrc: 'imgs/drinks.jpg',
+    dishes      : [
+      {
+        name              : 'Painkiller',
+        price             : '10',
+        lastDateOfModified: '',
+        imgSrc            : '',
+        desc              : 'A Caribbean classic made with Pusser’s® Blue Label navy rum, pineapple juice, Coco Reàl® cream of coconut, orange juice and a sprinkle of nutmeg.'
+      },
+      {
+        name              : 'Zombie',
+        price             : '4.35',
+        lastDateOfModified: '',
+        imgSrc            : '',
+        desc              : 'A potent concoction of BACARDI® Superior rum, Cruzan® Aged rum, Cruzan® Black Strap rum, DeKuyper® amaretto, pineapple juice, orange juice and grenadine.'
+      },
+      {
+        name              : 'Ruby Red Mega Mojito',
+        price             : '10',
+        lastDateOfModified: '',
+        imgSrc            : '',
+        desc              : 'A humongous-sized cocktail bringing together flavors of Cruzan® Aged rum, SKYY Infusions® Texas Grapefruit vodka, Monin® Ruby Red Grapefruit, mojito mix, fresh mint leaves, lime and a splash of club soda.'
+      }
+    ]
+  }
+]

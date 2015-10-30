@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="libs/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid ">
+        <div class="navMenu row">
+            <div class="col-sm-3">Logo Img</div>
+            <div class="col-sm-7">Restaurant Admin Panel</div>
+            <div id="logout" class="col-sm-2 logout">
+                <button type="button" class="btn btn-primary">LogOut</button>
+            </div>
+        </div>
+        <div class="row main-content">
+            <ul class="col-sm-3 left-column">
+                <li class="first"><span class="glyphicon glyphicon-th-list"></span> Menu <span class="glyphicon glyphicon-menu-left close-menu"></span></li>
+                <li class=""><span class="glyphicon glyphicon-th-large menu-item"></span>Dashboard </li>
+                <li class=""><span class="glyphicon glyphicon-pencil menu-item"></span>Order Manages </li>
+                <li class=""><span class="glyphicon glyphicon-calendar menu-item"></span>Reservation </li>
+                <li class=""><span class="glyphicon glyphicon-exclamation-sign menu-item"></span>Activity Log</li>
+            </ul>
+
+            <!--Menu categories dishes-->
+            <div class="col-sm-6 container-fluid center-column" ng-include="menuCategories.html" ng-repeat="category in categories"></div>
+
+
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+</body>
+</html>
